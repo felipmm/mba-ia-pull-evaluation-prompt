@@ -206,7 +206,7 @@ mba-ia-pull-evaluation-prompt-main/
 ├── tests/
 │   └── test_prompts.py                     # ✅ 6 testes implementados
 └── datasets/
-    └── bug_to_user_story.jsonl            # 15 exemplos de bugs
+    └── bug_to_user_story.jsonl            # 20 exemplos de bugs
 ```
 
 ---
@@ -321,7 +321,7 @@ python src/push_prompts.py
 python src/evaluate.py
 
 # O script irá:
-# 1. Carregar 15 exemplos de bugs do dataset
+# 1. Carregar 20 exemplos de bugs do dataset
 # 2. Criar dataset no LangSmith
 # 3. Executar prompt v2 contra os bugs
 # 4. Calcular 4 métricas (Tone, Acceptance, Format, Completeness)
@@ -347,7 +347,7 @@ python src/evaluate.py
 2. Faça login com sua conta
 3. Vá para projeto: "mba-ia-pull-evaluation-prompt"
 4. Visualize:
-   - Dataset: "bug_to_user_story" com 15 exemplos
+   - Dataset: "bug_to_user_story" com 20 exemplos
    - Runs: Execuções do prompt v2
    - Métricas: Scores de avaliação
    - Traces: Detalhes de cada execução
