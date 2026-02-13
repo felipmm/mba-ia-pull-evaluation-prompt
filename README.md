@@ -355,33 +355,6 @@ python src/evaluate.py
 
 ---
 
-## 📋 Fluxo Completo de Execução
-
-```mermaid
-1. Setup
-   ├── python3 -m venv venv
-   ├── source venv/bin/activate
-   └── pip install -r requirements.txt
-
-2. Validação
-   └── pytest tests/test_prompts.py -v
-       └── ✅ Todos os 6 testes passam
-
-3. Push
-   └── python src/push_prompts.py
-       └── ✅ Prompt v2 enviado para LangSmith
-
-4. Avaliação (OPCIONAL)
-   └── python src/evaluate.py
-       └── ✅ Métricas calculadas e publicadas
-
-5. Visualização
-   └── https://smith.langchain.com/
-       └── Dashboard com resultados
-```
----
-
-
 ### Técnicas mais impactantes:
 
 - 🥇 **Few-shot Learning**: +40% de melhoria (exemplos práticos)
